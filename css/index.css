@@ -85,7 +85,7 @@ img {
   position: relative;
   background: var(--orange);
   transform-style: preserve-3d;
-  perspective: 100px;
+  perspective: 500px;
   overflow-x: hidden;
 }
 
