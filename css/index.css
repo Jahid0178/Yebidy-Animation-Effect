@@ -149,28 +149,28 @@ img {
   background-attachment: fixed;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, .1);
-  box-shadow: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   animation-delay: 1s;
 }
 
 @keyframes animateTwo {
   0% {
     transform: translateZ(0px);
-    background: url(/Images/Home/slider1.jpg);
+    background: none;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
 
   100% {
     transform: translateZ(2000px);
-    background: url(/Images/Home/slider1.jpg);
+    background: none;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    border: 1px solid rgba(0, 0, 0, .1);
-    box-shadow: rgba(0, 0, 0, 0.1);
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
   }
 }
 
